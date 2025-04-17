@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="..\Css\galeria_desing.css">
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+            height: 180px;
+        }
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        div.gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Galería de Imágenes</h1></header>
+    <nav>
+        <a href="..\index.html">Inicio</a>
+        <a href="..\Demás funciones/detalles.html">Detalles</a>
+        <a href="..\Demás funciones/galeria.html">Galeria</a>
+        <a href="..\Demás funciones/contacto.html">Contacto</a>
+    </nav>
+    <div class="gallery-container">
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Cazando.jpg">
+              <img src="..\Fotos\Cazando.jpg" alt="Tigre Blanco Cazando" width="600" height="400">
+            </a>
+            <div class="desc">Tigre Blanco Cazando.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Naranja-Blanco.jpg">
+              <img src="..\Fotos\Naranja-Blanco.jpg" alt="Tigre Naranja y Tigre Blanco." width="600" height="400">
+            </a>
+            <div class="desc">Tigre Naranja y Tigre Blanco.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Cachorro.jpg">
+              <img src="..\Fotos\Cachorro.jpg" alt="Cachorro de Tigre Blanco." width="600" height="400">
+            </a>
+            <div class="desc">Cachorro de Tigre Blanco.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Cachorro.jpg">
+              <img src="..\Fotos\Familia_tigres.jpg" alt="Familia de tigres blancos." width="600" height="400">
+            </a>
+            <div class="desc">Familia de tigres blancos.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\3_Tigres.jpg">
+              <img src="..\Fotos\3_Tigres.jpg" alt="3 Tigres Blancos." width="600" height="400">
+            </a>
+            <div class="desc">Tres Tigres Blancos adultos.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Madre_crias.webp">
+              <img src="..\Fotos\Madre_crias.webp" alt="Madre y crías." width="600" height="400">
+            </a>
+            <div class="desc">Madre y crías Tigre Blanco.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Pelea.jpg">
+              <img src="..\Fotos\Pelea.jpg" alt="Pelea entre Tigre y Tigre Blanco." width="600" height="400">
+            </a>
+            <div class="desc">Pelea entre Tigre y Tigre Blanco.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..\Fotos\Pelea_tigres_blancos.jpg">
+              <img src="..\Fotos\Pelea_tigres_blancos.jpg" alt="Pelea entre Tigres Blancos." width="600" height="400">
+            </a>
+            <div class="desc">Pelea entre Tigres Blancos.</div>
+        </div>
+    </div>
+    <footer>
+        <p>Lars Reyes &copy;2025</p>
+    </footer>
+</body>
+</html>
